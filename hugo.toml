@@ -199,8 +199,9 @@ defaultContentLanguage = 'zh-cn'
         reactionsEnabled = "1"
         emitMetadata = "0"
         inputPosition = "top"
+        lang = "zh-CN"
         lightTheme = "light"
-        darkTheme = "dark"
+        darkTheme = "dark_dimmed"
         lazyLoad = true
       
     [params.page.library]
