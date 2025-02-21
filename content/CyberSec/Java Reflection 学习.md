@@ -2,7 +2,7 @@
 title: Java Reflection 学习
 subtitle:
 date: 2025-01-29T06:32:30+08:00
-slug: 353b3b4
+slug: java-reflection-学习
 draft: false
 author:
   name: M1ng2u
@@ -227,9 +227,9 @@ clazz.getMethod("exec", String.class).invoke(clazz.getMethod("getRuntime").invok
 >    ```java
 >    public class Database {
 >        private static volatile Database INSTANCE;
->                       
+>                          
 >        private Database() {}
->                       
+>                          
 >        public static Database getInstance() {
 >            if (INSTANCE == null) {
 >                synchronized (Database.class) {
@@ -250,11 +250,11 @@ clazz.getMethod("exec", String.class).invoke(clazz.getMethod("getRuntime").invok
 >    ```java
 >    public class Database {
 >        private Database() {}
->                       
+>                          
 >        private static class Holder {
 >            static final Database INSTANCE = new Database();
 >        }
->                       
+>                          
 >        public static Database getInstance() {
 >            return Holder.INSTANCE;
 >        }

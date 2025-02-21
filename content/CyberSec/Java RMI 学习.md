@@ -2,7 +2,7 @@
 title: Java RMI 学习
 subtitle:
 date: 2025-01-29T15:52:00+08:00
-slug: 47002e4
+slug: java-rmi-学习
 draft: false
 author:
   name:

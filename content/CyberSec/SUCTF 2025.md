@@ -2,7 +2,7 @@
 title: SUCTF 2025
 subtitle:
 date: 2025-01-24T10:20:38+08:00
-slug: cc76721
+slug: su-ctf-2025
 draft: false
 author:
   name: M1ng2u

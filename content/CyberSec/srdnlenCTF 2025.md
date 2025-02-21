@@ -2,7 +2,7 @@
 title: SrdnlenCTF 2025
 subtitle:
 date: 2025-01-23T22:34:19+08:00
-slug: 4f8b201
+slug: srdnlen-ctf-2025
 draft: false
 author: 
   name: M1ng2u
