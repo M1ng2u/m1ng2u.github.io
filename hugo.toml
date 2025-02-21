@@ -1,0 +1,383 @@
+baseURL = 'https://m1ng2u.github.io/'
+languageCode = 'en-us'
+title = "M1ng2u's Blog"
+theme = 'FixIt'
+summaryLength = 0
+
+defaultContentLanguage = 'zh-cn'
+[markup]
+  _merge = "shallow"
+[outputs]
+  _merge = "shallow"
+[taxonomies]
+  _merge = "shallow"
+
+[params]
+  defaultTheme = 'dark'
+  
+  [params.author]
+    name = "M1ng2u"
+    email = "mingzu2004@gmail.com"
+    link = "https://m1ng2u.github.io/"
+    avatar = "/m1ng2u.jpg"
+  
+  [params.tagcloud]
+    enable = true
+    min = 14
+    max = 32
+    peakCount = 20
+    orderby = "name"
+
+  [params.home]
+    paginate = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "mingzu2004@gmail.com"
+      avatarURL = "/m1ng2u.jpg"
+      avatarMenu = "categories"
+      title = ""
+      subtitle = "这是一个副标题"
+      typeit = true
+      social = false
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 10
+    [params.busuanzi]
+      enable = true
+      source = "https://vercount.one/js"
+      siteViews = true
+      pageViews = true
+  [params.cookieconsent]
+    enable = false
+  [params.readingProgress]
+    enable = true
+    start = "left"
+    position = "top"
+    reversed = false
+    light = "gray"
+    dark = "white"
+    height = "4px"
+  [params.postSummary]
+    enable = true
+    key = "6e9565c70356dd042903938d6f0c1d288c9fc40b"
+    # 主题选项：["", "simple", "yanzhi"]
+    title = "我是一个摘要"
+    theme = ""
+    postURL = ""
+    blacklist = ""
+    wordLimit = 300
+    typingAnimate = true
+    beginningText = ""
+  
+  [params.backToTop]
+    enable = true
+    scrollpercent = true
+
+  [params.page]
+    authorAvatar = true
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    hiddenFromRelated = false
+    hiddenFromFeed = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+    linkToMarkdown = true
+    linkToSource = true
+    linkToEdit = true
+    linkToReport = true
+    pageStyle = "normal"
+    autoBookmark = false
+    wordCount = true
+    readingTime = false
+    endFlag = ""
+    instantPage = false
+    collectionList = false
+    collectionNavigation = false
+    [params.page.repost]
+      enable = false
+      url = ""
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+      position = "right"
+      ordered = false
+      startLevel = 2
+      endLevel = 6
+    [params.page.expirationReminder]
+      enable = false
+      reminder = 90
+      warning = 180
+      closeComment = false
+    [params.page.heading]
+      capitalize = false
+      [params.page.heading.number]
+        enable = false
+        onlyMainSection = true
+        [params.page.heading.number.format]
+          h1 = "{title}"
+          h2 = "{h2} {title}"
+          h3 = "{h2}.{h3} {title}"
+          h4 = "{h2}.{h3}.{h4} {title}"
+          h5 = "{h2}.{h3}.{h4}.{h5} {title}"
+          h6 = "{h2}.{h3}.{h4}.{h5}.{h6} {title}"
+    [params.page.math]
+      enable = true
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+    [params.page.code]
+      enable = true
+      copy = true
+      edit = false
+      maxShownLines = 100
+    [params.page.mapbox]
+      accessToken = ""
+      lightStyle = "mapbox://styles/mapbox/light-v11"
+      darkStyle = "mapbox://styles/mapbox/dark-v11"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+    [params.page.cacheRemoteImages]
+      enable = true
+      replace = false
+    [params.page.related]
+      enable = false
+      count = 5
+    [params.page.reward]
+      enable = false
+      animation = false
+      position = "after"
+      mode = "static"
+      [params.page.reward.ways]
+    [params.page.share]
+      enable = false
+      Twitter = false
+      Facebook = false
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Flipboard = true
+      Weibo = true
+      Myspace = false
+      Blogger = true
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Mix = false
+    [params.page.comment]
+      enable = true
+      [params.page.comment.artalk]
+        enable = false
+        server = "http://artalk.mingzux.com"
+        site = "M1ng2u's Artalk"
+        useBackendConf = false
+        placeholder = ""
+        noComment = ""
+        sendBtn = ""
+        editorTravel = true
+        flatMode = "auto"
+        lightgallery = false
+        emoticons = ""
+        nestMax = 2
+        vote = true
+        voteDown = false
+        uaBadge = true
+        listSort = true
+        imgUpload = true
+        preview = true
+        versionCheck = true
+      [params.page.comment.disqus]
+        enable = false
+        shortname = ""
+      [params.page.comment.gitalk]
+        enable = false
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+      [params.page.comment.valine]
+        enable = false
+        appId = ""
+        appKey = ""
+        placeholder = ""
+        avatar = "mp"
+        meta = ['nick','mail','link']
+        requiredFields = []
+        pageSize = 10
+        lang = ""
+        visitor = true
+        recordIP = true
+        highlight = true
+        enableQQ = false
+        serverURLs = ""
+        emoji = ""
+      [params.page.comment.waline]
+        enable = false
+        serverURL = ""
+        emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
+        meta = ["nick", "mail", "link"]
+        requiredMeta = []
+        login = "enable"
+        wordLimit = 0
+        pageSize = 10
+      [params.page.comment.facebook]
+        enable = false
+        width = "100%"
+        numPosts = 10
+        appId = ""
+        languageCode = ""
+      [params.page.comment.telegram]
+        enable = false
+        siteID = ""
+        limit = 5
+        height = ""
+        color = ""
+        colorful = true
+        dislikes = false
+        outlined = false
+      [params.page.comment.commento]
+        enable = false
+      [params.page.comment.utterances]
+        enable = false
+        repo = ""
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
+      [params.page.comment.twikoo]
+        enable = false
+        envId = ""
+        region = ""
+        path = ""
+        visitor = true
+        commentCount = true
+        lightgallery = false
+        katex = false
+      [params.page.comment.giscus]
+        enable = true
+        repo = ""
+        repoId = ""
+        category = ""
+        categoryId = ""
+        mapping = ""
+        term = ""
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        lang = ""
+        lightTheme = "light"
+        darkTheme = "dark"
+        lazyLoad = true
+    [params.page.library]
+      [params.page.library.css]
+      [params.page.library.js]
+    [params.page.seo]
+      images = []
+      [params.page.seo.publisher]
+        name = ""
+        logoUrl = ""
+  [params.search]
+    enable = true
+    type = "cse"
+  [params.cse]
+    engine = "google"
+    resultsPage = "/search/"
+    [params.cse.google]
+      cx = "70c94bd15fbca4282"
+
+[menu]
+  [[menu.main]]
+    identifier = "documentation"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "文档"
+    url = "/categories/"
+    title = ""
+    weight = 1
+    [menu.main.params]
+      class = ""
+      draft = false
+      icon = "fa-regular fa-newspaper"
+      type = ""
+      divided = false
+  [[menu.main]]
+    identifier = "archives"
+    parent = "documentation"
+    pre = ""
+    post = ""
+    name = "归档"
+    url = "/archives/"
+    title = ""
+    weight = 2
+    [menu.main.params]
+      class = ""
+      draft = false
+      icon = "fa-solid fa-archive"
+      type = ""
+      divided = false
+  [[menu.main]]
+    identifier = "categories"
+    parent = "documentation"
+    pre = ""
+    post = ""
+    name = "分类"
+    url = "/categories/"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-folder-tree"
+  [[menu.main]]
+    identifier = "collections"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "合集"
+    url = "/collections/"
+    title = ""
+    weight = 4
+    [menu.main.params]
+      icon = "fa-solid fa-layer-group"
+  [[menu.main]]
+    identifier = "tags"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "标签"
+    url = "/tags/"
+    title = ""
+    weight = 5
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
+  [[menu.main]]
+    identifier = "about"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about/"
+    title = ""
+    weight = 6
+    [menu.main.params]
+      icon = "fa-solid fa-info-circle"
+
