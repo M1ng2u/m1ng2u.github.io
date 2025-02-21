@@ -7,5 +7,5 @@
 ---
 
 > 作者:   
-> URL: http://localhost:1313/about/  
+> URL: https://m1ng2u.github.io/about/  
 

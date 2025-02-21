@@ -479,5 +479,5 @@ SDU
 ---
 
 > 作者: [M1ng2u](https://m1ng2u.github.io/)  
-> URL: http://localhost:1313/cybersec/353b3b4/  
+> URL: https://m1ng2u.github.io/cybersec/353b3b4/  
 
