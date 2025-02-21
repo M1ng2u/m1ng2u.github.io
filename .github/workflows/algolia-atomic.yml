@@ -25,6 +25,10 @@ jobs:
           hugo-version: ${{ vars.HUGO_VERSION || 'latest' }}
           extended: true
 
+      - name: Install Dependencies
+        run: |
+          npm install -g atomic-algolia
+
       - name: Build
         run: |
           npm install
@@ -34,7 +38,5 @@ jobs:
         env:
           ALGOLIA_APP_ID: JQ10L16U5A
           ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          ALGOLIA_INDEX_NAME: "search"
-          ALGOLIA_INDEX_FILE: './public/search.json'
         run: |
-          npm run algolia
+          ALGOLIA_INDEX_NAME="search" ALGOLIA_INDEX_FILE="public/search.json" npm run algolia

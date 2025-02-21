@@ -3,7 +3,7 @@
     "atomic-algolia": "^0.3.19"
   },
   "scripts": {
-    "algolia": "atomic-algolia",
+    "algolia": "npx atomic-algolia",
     "build": "hugo --minify --environment production"
   }
 }
