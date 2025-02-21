@@ -9,6 +9,7 @@ defaultContentLanguage = 'zh-cn'
   _merge = "shallow"
 [outputs]
   _merge = "shallow"
+  home = ["html", "rss", "archives", "offline", "search"]
 [taxonomies]
   _merge = "shallow"
 
@@ -281,6 +282,8 @@ defaultContentLanguage = 'zh-cn'
         category = "Announcements"
         categoryId = "DIC_kwDON9Vu1M4CnMK0"
         mapping = "pathname"
+        origin = "https://giscus.app"
+        strict = "0"
         term = ""
         reactionsEnabled = "1"
         emitMetadata = "0"
@@ -289,6 +292,7 @@ defaultContentLanguage = 'zh-cn'
         lightTheme = "light"
         darkTheme = "dark"
         lazyLoad = true
+      
     [params.page.library]
       [params.page.library.css]
       [params.page.library.js]
@@ -299,7 +303,17 @@ defaultContentLanguage = 'zh-cn'
         logoUrl = ""
   [params.search]
     enable = true
-    type = "cse"
+    type = "algolia"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.algolia]
+      index = "search"
+      appID = "JQ10L16U5A"
+      searchKey = "a6d4090b5ab509b3c3f1db21cfd3edcd"
   [params.cse]
     engine = "google"
     resultsPage = "/search/"

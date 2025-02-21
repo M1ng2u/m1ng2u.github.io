@@ -1,0 +1,49 @@
+name: Update Algolia Search Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "content"
+  workflow_dispatch:
+
+jobs:
+  algolia-atomic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          # use the environment variable HUGO_VERSION as the hugo version, if not set, use `latest`.
+          hugo-version: ${{ vars.HUGO_VERSION || 'latest' }}
+          extended: true
+
+      - name: Build
+        run: |
+          npm install
+          npm run build
+
+      - name: Update Algolia Index (en)
+        env:
+          ALGOLIA_APP_ID: JQ10L16U5A # algolia Application ID
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }} # algolia Admin API Key
+          ALGOLIA_INDEX_NAME: "search" # algolia index name
+          ALGOLIA_INDEX_FILE: './public/search.json' # local search.json file path
+        run: |
+          npm run algolia
+
+      - name: Update Algolia Index (zh-cn)
+        env:
+          ALGOLIA_APP_ID: YKOxxxxLUY
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: "index.zh-cn"
+          ALGOLIA_INDEX_FILE: "./public/zh-cn/search.json"
+        run: |
+          npm run algolia
