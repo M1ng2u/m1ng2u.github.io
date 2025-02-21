@@ -200,7 +200,7 @@ defaultContentLanguage = 'zh-cn'
         emitMetadata = "0"
         inputPosition = "top"
         lightTheme = "light"
-        darkTheme = "dark_dimmed"
+        darkTheme = "dark_tritanopia"
         lazyLoad = true
       
     [params.page.library]
