@@ -187,9 +187,9 @@ clazz.getMethod(&#34;exec&#34;, String.class).invoke(clazz.getMethod(&#34;getRun
 &gt;    ```java
 &gt;    public class Database {
 &gt;        private static volatile Database INSTANCE;
-&gt;                    
+&gt;                       
 &gt;        private Database() {}
-&gt;                    
+&gt;                       
 &gt;        public static Database getInstance() {
 &gt;            if (INSTANCE == null) {
 &gt;                synchronized (Database.class) {
@@ -210,11 +210,11 @@ clazz.getMethod(&#34;exec&#34;, String.class).invoke(clazz.getMethod(&#34;getRun
 &gt;    ```java
 &gt;    public class Database {
 &gt;        private Database() {}
-&gt;                    
+&gt;                       
 &gt;        private static class Holder {
 &gt;            static final Database INSTANCE = new Database();
 &gt;        }
-&gt;                    
+&gt;                       
 &gt;        public static Database getInstance() {
 &gt;            return Holder.INSTANCE;
 &gt;        }
@@ -479,5 +479,5 @@ SDU
 ---
 
 > 作者: [M1ng2u](https://m1ng2u.github.io/)  
-> URL: https://m1ng2u.github.io/cybersec/353b3b4/  
+> URL: http://localhost:1313/cybersec/353b3b4/  
 

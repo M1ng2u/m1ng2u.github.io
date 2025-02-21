@@ -12,7 +12,7 @@ author:
 description:
 keywords:
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - Java
@@ -30,7 +30,7 @@ resources:
   - name: featured-image-preview
     src: featured-image-preview.jpg
 toc: true
-math: false
+math: true
 lightgallery: false
 password:
 message:
@@ -227,9 +227,9 @@ clazz.getMethod("exec", String.class).invoke(clazz.getMethod("getRuntime").invok
 >    ```java
 >    public class Database {
 >        private static volatile Database INSTANCE;
->                    
+>                       
 >        private Database() {}
->                    
+>                       
 >        public static Database getInstance() {
 >            if (INSTANCE == null) {
 >                synchronized (Database.class) {
@@ -250,11 +250,11 @@ clazz.getMethod("exec", String.class).invoke(clazz.getMethod("getRuntime").invok
 >    ```java
 >    public class Database {
 >        private Database() {}
->                    
+>                       
 >        private static class Holder {
 >            static final Database INSTANCE = new Database();
 >        }
->                    
+>                       
 >        public static Database getInstance() {
 >            return Holder.INSTANCE;
 >        }

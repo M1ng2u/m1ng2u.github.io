@@ -67,7 +67,7 @@ defaultContentLanguage = 'zh-cn'
     theme = ""
     postURL = ""
     blacklist = ""
-    wordLimit = 300
+    wordLimit = 1500
     typingAnimate = true
     beginningText = ""
   
@@ -188,93 +188,6 @@ defaultContentLanguage = 'zh-cn'
       Mix = false
     [params.page.comment]
       enable = true
-      [params.page.comment.artalk]
-        enable = false
-        server = "http://artalk.mingzux.com"
-        site = "M1ng2u's Artalk"
-        useBackendConf = false
-        placeholder = ""
-        noComment = ""
-        sendBtn = ""
-        editorTravel = true
-        flatMode = "auto"
-        lightgallery = false
-        emoticons = ""
-        nestMax = 2
-        vote = true
-        voteDown = false
-        uaBadge = true
-        listSort = true
-        imgUpload = true
-        preview = true
-        versionCheck = true
-      [params.page.comment.disqus]
-        enable = false
-        shortname = ""
-      [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
-      [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
-        meta = ['nick','mail','link']
-        requiredFields = []
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = ""
-        emoji = ""
-      [params.page.comment.waline]
-        enable = false
-        serverURL = ""
-        emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
-        meta = ["nick", "mail", "link"]
-        requiredMeta = []
-        login = "enable"
-        wordLimit = 0
-        pageSize = 10
-      [params.page.comment.facebook]
-        enable = false
-        width = "100%"
-        numPosts = 10
-        appId = ""
-        languageCode = ""
-      [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
-        color = ""
-        colorful = true
-        dislikes = false
-        outlined = false
-      [params.page.comment.commento]
-        enable = false
-      [params.page.comment.utterances]
-        enable = false
-        repo = ""
-        issueTerm = "pathname"
-        label = ""
-        lightTheme = "github-light"
-        darkTheme = "github-dark"
-      [params.page.comment.twikoo]
-        enable = false
-        envId = ""
-        region = ""
-        path = ""
-        visitor = true
-        commentCount = true
-        lightgallery = false
-        katex = false
       [params.page.comment.giscus]
         enable = true
         repo = "M1ng2u/m1ng2u.github.io"
@@ -284,7 +197,6 @@ defaultContentLanguage = 'zh-cn'
         mapping = "pathname"
         origin = "https://giscus.app"
         strict = "0"
-        term = ""
         reactionsEnabled = "1"
         emitMetadata = "0"
         inputPosition = "top"

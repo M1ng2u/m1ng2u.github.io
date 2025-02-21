@@ -1063,5 +1063,5 @@ wp 说用 k8spider：https://github.com/Esonhugh/k8spider
 ---
 
 > 作者: [M1ng2u](https://m1ng2u.github.io/)  
-> URL: https://m1ng2u.github.io/cybersec/cc76721/  
+> URL: http://localhost:1313/cybersec/cc76721/  
 

@@ -12,7 +12,7 @@ author:
 description:
 keywords:
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - CTF
@@ -29,7 +29,7 @@ resources:
   - name: featured-image-preview
     src: featured-image-preview.jpg
 toc: true
-math: false
+math: true
 lightgallery: false
 password:
 message:
