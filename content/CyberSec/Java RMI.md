@@ -1,11 +1,11 @@
 ---
-title: Java RMI 学习
+title: Java RMI
 subtitle:
 date: 2025-01-29T15:52:00+08:00
-slug: java-rmi-学习
-draft: false
+slug: java-rmi
+draft: true
 author:
-  name:
+  name: M1ng2u
   link:
   email:
   avatar:
@@ -19,6 +19,7 @@ tags:
   - RMI
 categories:
   - JavaSec
+collections:
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false

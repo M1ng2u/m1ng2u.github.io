@@ -1,8 +1,8 @@
 ---
-title: Java Reflection 学习
+title: Java Reflection
 subtitle:
 date: 2025-01-29T06:32:30+08:00
-slug: java-reflection-学习
+slug: java-reflection
 draft: false
 author:
   name: M1ng2u
@@ -72,7 +72,7 @@ public void execute(String className, String methodName) throws Exception {
 
 这段代码中改变传入参数的值，将会调用不同类的不同方法
 
-## forName
+## forName 
 
 forName 有两个函数重载
 
@@ -227,9 +227,9 @@ clazz.getMethod("exec", String.class).invoke(clazz.getMethod("getRuntime").invok
 >    ```java
 >    public class Database {
 >        private static volatile Database INSTANCE;
->                          
+>                                
 >        private Database() {}
->                          
+>                                
 >        public static Database getInstance() {
 >            if (INSTANCE == null) {
 >                synchronized (Database.class) {
@@ -250,11 +250,11 @@ clazz.getMethod("exec", String.class).invoke(clazz.getMethod("getRuntime").invok
 >    ```java
 >    public class Database {
 >        private Database() {}
->                          
+>                                
 >        private static class Holder {
 >            static final Database INSTANCE = new Database();
 >        }
->                          
+>                                
 >        public static Database getInstance() {
 >            return Holder.INSTANCE;
 >        }
@@ -263,7 +263,7 @@ clazz.getMethod("exec", String.class).invoke(clazz.getMethod("getRuntime").invok
 
 ---
 
-回到主线，看一下这两种情况下怎么通过反射实例化类？
+回到主线，看一下这两种情况下怎么通过反射来实例化类？
 
 ### 一：没有无参构造函数
 
@@ -365,7 +365,7 @@ Class.forName("java.lang.Runtime").getMethod("exec", String.class).invoke(runtim
 >
 > ```java
 > // 可以打印结果，也可以调用一个可执行的程序，例如 calc.exe
-> Process process = (Process) Class.forName("java.lang.Runtime").getMethod("exec", String.class).invoke(runtimeInstance, "id");
+> Process process = (Process) Class.forName("java.lang.Runtime").getMethod("exec", String.class).invoke(runtimeInstance, "calc");
 > InputStream inputStream = process.getInputStream();
 > BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 > String line;
