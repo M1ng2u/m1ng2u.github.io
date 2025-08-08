@@ -213,8 +213,6 @@ public class EvilObject {
 
 利用技巧：与上面RMI Reference基本一致，只是lookup()中的URL为一个LDAP地址
 
-> 看了好几遍，然后边写边看跟着抄了一遍，大致了解了，先过（）
-
 LdapServer.java
 
 ```Java
@@ -318,5 +316,3 @@ public class JNDIClient {
     }
 }
 ```
-
-EvilObject.java 没变，跟上一节一样
