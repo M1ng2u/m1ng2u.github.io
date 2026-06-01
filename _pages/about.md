@@ -43,7 +43,7 @@ TCAP: Tri-Component Attention Profiling for Unsupervised Backdoor Detection in M
 
 **Mingzu Liu\***, Hao Fang*, Runmin Cong
 
-*International Conference on Machine Learning (ICML), 2026.*
+- *Accepted by the Forty-Third International Conference on Machine Learning (ICML), 2026.*
 
 - Efficient and unsupervised backdoor detection in MLLMs via attention allocation profiling.
 
