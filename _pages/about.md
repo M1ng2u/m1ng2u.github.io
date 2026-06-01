@@ -20,7 +20,7 @@ redirect_from:
 I am **Mingzu Liu (刘明祖)**, an undergraduate student in Automation Science at Shandong University.
 
 
-# Research Interests
+# ✨ Research Interests
 - Trustworthy and Robust AI
 - Multimodal Large Languages Models
 
@@ -30,7 +30,7 @@ I am **Mingzu Liu (刘明祖)**, an undergraduate student in Automation Science 
 
 
 # 📝 Publications 
-* indicates co-first author.
+\* indicates co-first author.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/icml2026/TCAP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -52,10 +52,15 @@ TCAP: Tri-Component Attention Profiling for Unsupervised Backdoor Detection in M
 # 📖 Education
 - *2023.09 - 2027.06 (Expected)*: **B.Eng. in Automation Science**, School of Control Science and Engineering, Shandong University 
 
+
 # 🎖 Selected Honors
 - aaa
 - bbb
 
 
 # 💻 Internships
-- *2025.09 - now*, [Multimedia and Vision Processing Group (MVP Lab)](https://rmcong.github.io/MVPLab.html), China.
+- *2025.09 - now*, [Multimedia and Vision Processing Group (MVP Lab)](https://rmcong.github.io/MVPLab.html), Undergraduate Research Intern, China.
+
+
+# ✉️ Contact
+- Email: mingzuliu@mail.sdu.edu.cn
