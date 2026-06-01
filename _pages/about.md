@@ -26,10 +26,14 @@ I am **Mingzu Liu (刘明祖)**, an undergraduate student in Automation Science 
 
 
 # 🔥 News
+{: #news}
+
 - *2026.05*: One paper about backdoor defense for MLLMs has been accepted by ICML 2026.
 
 
 # 📝 Publications 
+{: #publications}
+
 \* indicates co-first author.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/icml2026/TCAP.png' alt="sym" width="100%"></div></div>
@@ -63,4 +67,6 @@ TCAP: Tri-Component Attention Profiling for Unsupervised Backdoor Detection in M
 
 
 # ✉️ Contact
+{: #contact}
+
 - Email: mingzuliu@mail.sdu.edu.cn
