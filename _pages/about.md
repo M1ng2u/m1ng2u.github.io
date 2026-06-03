@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Mingzu Liu (刘明祖)**, an undergraduate student in Automation Science at Shandong University.
+I am **Mingzu Liu (刘明祖)**, an undergraduate student in Automation Science at Shandong University. I am currently a research assistant supervised by Prof. [Runmin Cong](https://rmcong.github.io) in the [Multimedia and Vision Processing Group (MVP Lab)](https://rmcong.github.io/MVPLab.html). I am also a CTF player with [SU-Team](https://su-team.cn/page/active-members/#:~:text=M1ng2u) and [HASHTEAM](https://hashteam.club/Member.html#:~:text=M1ng2u), focusing mainly on web security, vulnerability analysis, and AI security.
 
 
 # ✨ Research Interests
@@ -28,7 +28,7 @@ I am **Mingzu Liu (刘明祖)**, an undergraduate student in Automation Science 
 # 🔥 News
 {: #news}
 
-- *2026.05*: One paper about backdoor defense for MLLMs has been accepted by ICML 2026.
+- *2026.05*: One paper about backdoor defense for MLLMs has been accepted by **ICML 2026**.
 
 
 # 📝 Publications 
@@ -58,8 +58,8 @@ TCAP: Tri-Component Attention Profiling for Unsupervised Backdoor Detection in M
 
 
 # 🎖 Selected Honors
-- aaa
-- bbb
+- This is selected.
+- And these are honors.
 
 
 # 💻 Internships
