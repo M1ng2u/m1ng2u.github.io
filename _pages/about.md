@@ -57,13 +57,9 @@ TCAP: Tri-Component Attention Profiling for Unsupervised Backdoor Detection in M
 - *2023.09 - 2027.06 (Expected)*: **B.Eng. in Automation Science**, School of Control Science and Engineering, Shandong University 
 
 
-# 🎖 Selected Honors
-- This is selected.
-- And these are honors.
-
 
 # 💻 Internships
-- *2025.09 - now*, [Multimedia and Vision Processing Group (MVP Lab)](https://rmcong.github.io/MVPLab.html), Undergraduate Research Intern, China.
+- *2025.09 - now*, [Multimedia and Vision Processing Group (MVP Lab)](https://rmcong.github.io/MVPLab.html), Undergraduate Research Assistant, China.
 
 
 # ✉️ Contact
